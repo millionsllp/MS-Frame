@@ -1,0 +1,30 @@
+{
+    "name": "millionsllp/ms-frame",
+    "description": "Basic MVS Frame work",
+    "type": "PHP framework",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Million Solutions LLP",
+            "email": "dev@millionsllp.com"
+        }
+    ],
+    
+    "require": {
+        "php": ">=5.6.4",
+        "millionsllp/core": "dev-master", 
+        "laravel/framework": "5.3.*",
+        "laravelcollective/html":"^5.3.0",
+        "maatwebsite/excel": "~2.1.0",
+        "milon/barcode": "^5.2" 
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "classmap": [
+        ],
+        "psr-4": {
+            "App\\": "app/"
+        }   
+    }
+}
